@@ -6,7 +6,6 @@
 // @license MIT
 // @match https://www.facebook.com/*
 // @match http://www.facebook.com/*
-// @run-at document-end
 // @grant none
 // ==/UserScript==
 
