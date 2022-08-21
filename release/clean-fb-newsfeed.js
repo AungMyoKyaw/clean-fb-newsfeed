@@ -1,11 +1,13 @@
 // ==UserScript==
-// @name         Clean Facebook Newsfeed
-// @version      0.1
-// @description  Clean Facebook Newsfeed
-// @author       aungmyokyaw
-// @match        https://www.facebook.com/
-// @grant        none
+// @name Clean Facebook Newsfeed
+// @description Clean Facebook Newsfeed
+// @version 0.1
+// @author aungmyokyaw
+// @license MIT
+// @match https://www.facebook.com/*
+// @match http://www.facebook.com/*
 // @run-at document-end
+// @grant none
 // ==/UserScript==
 
 function hideFeed() {
