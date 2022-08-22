@@ -23,7 +23,8 @@ function addRandomQuoteForHiddenPost() {
     // Something went wrong
     // This may be because of a technical error that we're working to get fixed. Try reloading this page.
     // Reload Page
-    if (feedTEXT.includes("Something went wrong")) {
+    if (feedTEXT.match(/something went wrong/gi).length > 0) {
+      feed.style.display = "block";
       feed.innerHTML =
         "<div style='display: flex; align-items: center; justify-content: center; height: 15em;'><div style='color: white; font-size: 3em;'>" +
         "❄️" +
