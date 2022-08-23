@@ -33,6 +33,16 @@ function hideVideoChatRoom() {
   }
 }
 
+function hideCreatePost() {
+  var postCreateRooms = document.querySelectorAll(
+    "div[aria-label='Create a post']"
+  );
+  for (var i = 0; i < postCreateRooms.length; i++) {
+    var postCreateRoom = postCreateRooms[i];
+    postCreateRoom.style.display = "none";
+  }
+}
+
 function addRandomQuoteForHiddenPost() {
   var feeds = document.querySelectorAll("div[role=article]");
   for (var i = 0; i < feeds.length; i++) {
@@ -65,6 +75,7 @@ const callback = (mutationList, observer) => {
     addRandomQuoteForHiddenPost();
     hideStories();
     hideVideoChatRoom();
+    hideCreatePost();
   }
 };
 
