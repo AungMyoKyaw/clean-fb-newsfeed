@@ -15,15 +15,34 @@ function hideFeed() {
   }
 }
 
+function hideStories() {
+  var stories = document.querySelectorAll("div[aria-label=Stories]");
+  for (var i = 0; i < stories.length; i++) {
+    var story = stories[i];
+    story.style.display = "none";
+  }
+}
+
+function hideVideoChatRoom() {
+  var chatrooms = document.querySelectorAll(
+    "div[aria-label='video chats that people can join']"
+  );
+  for (var i = 0; i < chatrooms.length; i++) {
+    var chatroom = chatrooms[i];
+    chatroom.style.display = "none";
+  }
+}
+
 function addRandomQuoteForHiddenPost() {
   var feeds = document.querySelectorAll("div[role=article]");
   for (var i = 0; i < feeds.length; i++) {
     var feed = feeds[i];
-    var feedTEXT = feeds[i].innerText;
+    var feedTEXT = feeds[i].innerText || "";
     // Something went wrong
     // This may be because of a technical error that we're working to get fixed. Try reloading this page.
     // Reload Page
-    if (feedTEXT.match(/something went wrong/gi).length > 0) {
+    var feedTextMatch = feedTEXT.match(/something went wrong/gi) || [];
+    if (feedTextMatch.length > 0) {
       feed.style.display = "block";
       feed.innerHTML =
         "<div style='display: flex; align-items: center; justify-content: center; height: 15em;'><div style='color: white; font-size: 3em;'>" +
@@ -44,6 +63,8 @@ const callback = (mutationList, observer) => {
   for (const mutation of mutationList) {
     hideFeed();
     addRandomQuoteForHiddenPost();
+    hideStories();
+    hideVideoChatRoom();
   }
 };
 
