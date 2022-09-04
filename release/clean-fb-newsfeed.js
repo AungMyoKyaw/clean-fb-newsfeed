@@ -23,6 +23,15 @@ function hideStories() {
   }
 }
 
+// hide icon only
+function hideMessenger() {
+  var messengers = document.querySelectorAll("div[aria-label=Messenger]");
+  for (var i = 0; i < messengers.length - 1; i++) {
+    var messenger = messengers[i];
+    messenger.style.opacity = "0";
+  }
+}
+
 function hideVideoChatRoom() {
   var chatrooms = document.querySelectorAll(
     "div[aria-label='video chats that people can join']"
@@ -74,6 +83,7 @@ const callback = (mutationList, observer) => {
     hideFeed();
     addRandomQuoteForHiddenPost();
     hideStories();
+    hideMessenger();
     hideVideoChatRoom();
     hideCreatePost();
   }
