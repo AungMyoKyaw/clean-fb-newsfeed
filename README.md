@@ -1,6 +1,9 @@
 # clean fb newsfeed
 
-<img src="release/clean-fb-newsfeed.icon.png" align="center" "width"="200px">
+<div align="center">
+  <img src="release/clean-fb-newsfeed.icon.png" align="center" width="200">
+</div>
+
 
 - fb ကို logout လည်း လုပ် မထား ချင်ဘူး ။
 - သူများ တင် တဲ့ ပိုစ့် တွေ ကို လည်း မကြည့်ချင်ဘူး ။
