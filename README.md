@@ -1,6 +1,5 @@
-# clean fb newsfeed
-
 <div align="center">
+  <h1 align="center">clean fb newsfeed</h1
   <img src="release/clean-fb-newsfeed.icon.png" align="center" width="200">
   <br>
   <br>
