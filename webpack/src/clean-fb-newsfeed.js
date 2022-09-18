@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         Clean Facebook Newsfeed
-// @version      0.1
-// @description  Clean Facebook Newsfeed
-// @author       aungmyokyaw
-// @match        https://www.facebook.com/
-// @grant        none
-// ==/UserScript==
-
 function hideFeed() {
   var feeds = document.querySelectorAll("div[role=feed]");
   for (var i = 0; i < feeds.length; i++) {
