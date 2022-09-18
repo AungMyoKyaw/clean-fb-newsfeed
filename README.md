@@ -1,5 +1,9 @@
 # clean fb newsfeed
 
+<a href="https://aungmyokyaw.com" target="_blank">
+ <img src="release/clean-fb-newsfeed.icon.png" align="center">
+</a>
+
 - fb ကို logout လည်း လုပ် မထား ချင်ဘူး ။
 - သူများ တင် တဲ့ ပိုစ့် တွေ ကို လည်း မကြည့်ချင်ဘူး ။
 - ကိုယ် ပဲ တင် ချင်တယ်
@@ -12,7 +16,7 @@ _ထို့ကြောင့်_
 ---
 
 - install [ userscripts extension ](https://apps.apple.com/us/app/userscripts/id1463298887) first
-- install [ clean fb news feed scripts ](https://raw.githubusercontent.com/AungMyoKyaw/clean-fb-newsfeed/master/release/clean-fb-newsfeed.js)
+- install [ clean fb news feed scripts ](https://raw.githubusercontent.com/AungMyoKyaw/clean-fb-newsfeed/master/release/clean-fb-newsfeed.user.js)
 
 ---
 
