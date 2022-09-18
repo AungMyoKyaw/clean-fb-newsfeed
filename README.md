@@ -23,18 +23,7 @@ _ထို့ကြောင့်_
 
 ---
 
-သူများ တင် တဲ့ ပိုစ့် ပြန် ကြည့်ချင် ရင် အဲ့တာကို ပိတ် လိုက် ပေါ့ ။
-oki လား ညီမလေး။
-
----
-
-ကြာပါတယ် messenger icon ပါ ဖြုတ် ကွာ ။
-စကား ပြော ချင် ရင် ဖုန်း ခေါ်လိုက် ။
-oki နော် ❄️ ။
-
----
-
-readme file was edited using sublimetext
+readme file was edited via sublimetext
 
 ---
 
