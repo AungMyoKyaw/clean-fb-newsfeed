@@ -2,6 +2,8 @@
 
 <div align="center">
   <img src="release/clean-fb-newsfeed.icon.png" align="center" width="200">
+  <br>
+  <br>
 </div>
 
 
