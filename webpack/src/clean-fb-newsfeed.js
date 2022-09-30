@@ -1,5 +1,12 @@
 function hideFeed() {
-  var feeds = document.querySelectorAll("div[role=feed]");
+  const feeds = [];
+  const queryList = [
+    `return document.querySelectorAll("div[role=feed]");`,
+    `return document.querySelectorAll("div[aria-posinset]");`,
+  ];
+  queryList.forEach((query) => {
+    feeds.push(...eval(new Function(query)()));
+  });
   for (var i = 0; i < feeds.length; i++) {
     var feed = feeds[i];
     feed.innerHTML = "";

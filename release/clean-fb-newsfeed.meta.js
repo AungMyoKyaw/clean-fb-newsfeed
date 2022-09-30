@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        clean-fb-newsfeed
-// @version     1.0.0-build.1663781718332
+// @version     1.0.0-build.1664547498236
 // @author      Aung Myo Kyaw
 // @description clean-fb-newsfeed
 // @homepage    https://github.com/AungMyoKyaw/clean-fb-newsfeed
